@@ -3,7 +3,7 @@ agent any
    stages{
         stage('Update Local'){
             steps{
-                sh "sudo apt update -y"
+                sh "sudo yum update -y"
 
             }
 
